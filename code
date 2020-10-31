@@ -1,0 +1,31 @@
+package primitiveDT;
+class mobile
+{
+	String name;
+	int modeln,year;
+	mobile(String n,int m,int y)
+	{
+		name=n;
+		modeln=m;
+		year=y;
+	}
+}
+	class ok extends mobile
+	{
+
+		ok(String n, int m, int y)
+		{
+			super(n, m, y);
+	     	System.out.println(n + " " + m + " " + y);
+	   }
+	}
+public class constructor2 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		mobile m = new ok("xiaomi", 8,2020);     
+	}
+
+}
